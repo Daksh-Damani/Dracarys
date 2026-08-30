@@ -105,7 +105,7 @@ target/release/dracarys.exe
 
 ---
 
-# 11. Configure Dracarys
+# Configure Dracarys
 
 Before running it, make sure this file exists:
 
@@ -120,7 +120,7 @@ Don't put secrets, API keys, passwords, or other private credentials in this fil
 
 ---
 
-# 12. Run Dracarys
+# Run Dracarys
 
 Run the executable file and
 You should see something similar to:
@@ -147,7 +147,7 @@ Dracarys should respond using the local model.
 
 ---
 
-# 13. Basic commands
+# Basic commands
 
 Currently available commands include:
 
@@ -250,7 +250,7 @@ For now, the priority is getting the core system stable before adding too much c
 * [ ] Tool system
 * [ ] Better context management
 * [ ] Web access
-* [ ] Multilingual improvements
+*    [ ] Multilingual improvements
 * [ ] Custom model experimentation
 * [ ] GUI
 
