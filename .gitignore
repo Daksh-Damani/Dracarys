@@ -1,1 +1,117 @@
-/target
+# dependencies
+
+node_modules/
+.venv/
+venv/
+**pycache**/
+target/
+
+# build
+
+build/
+dist/
+out/
+bin/
+obj/
+.vs/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Visual Studio
+
+*.suo
+*.user
+*.userosscache
+*.pdb
+*.ilk
+
+# compiled files
+
+*.exe
+*.dll
+*.lib
+*.obj
+*.o
+*.a
+*.so
+
+# cuda
+
+*.cubin
+*.fatbin
+*.ptx
+tmpxft_*
+
+# llama.cpp
+
+runtime/llama-build/
+runtime/llama.cpp/build/
+
+# models - don't commit these
+
+models/
+*.gguf
+*.ggml
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# keep llama.cpp vocab files
+
+!runtime/llama.cpp/models/ggml-vocab-*.gguf
+
+# python
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# logs / temp
+
+*.log
+*.tmp
+*.temp
+*.cache
+tmp/
+temp/
+.cache/
+
+# environment / secrets
+
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+*.pem
+*.key
+
+# local runtime data
+
+dracarys/memory/*
+dracarys/cache/
+dracarys/runtime/
+dracarys/tmp/
+
+# keep folder structure
+
+!dracarys/memory/.gitkeep
+
+# databases / indexes
+
+*.db
+*.sqlite
+*.sqlite3
+*.faiss
+*.index
+
+# editor / OS
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
