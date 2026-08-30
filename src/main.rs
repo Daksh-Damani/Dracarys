@@ -13,6 +13,9 @@ const SYSTEM_PROMPT_PATH: &str = "config/system.txt";
 struct ChatRequest {
     messages: Vec<Message>,
     temperature: f32,
+    top_p: f32,
+    top_k: i32,
+    repeat_penalty: f32,
     max_tokens: i32,
 }
 
@@ -31,6 +34,8 @@ struct ChatResponse {
 struct Choice {
     message: Message,
 }
+
+
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
@@ -174,22 +179,53 @@ if let Some(text) = input.strip_prefix("/remember ") {
     continue;
 }
 
+
+    if history.len() > 2 {
+    let recent_answers: Vec<&str> = history
+        .iter()
+        .filter(|m| m.role == "assistant")
+        .map(|m| m.content.as_str())
+        .rev()
+        .take(3)
+        .collect();
+
+    if recent_answers.len() >= 2
+        && recent_answers.windows(2).any(|w| w[0] == w[1])
+    {
+        history.push(Message {
+            role: "system".to_string(),
+            content: "Avoid repeating your previous response. Respond naturally and differently.".to_string(),
+        });
+    }
+}
+
         history.push(Message {
             role: "user".to_string(),
             content: input.to_string(),
         });
 
-        let request = ChatRequest {
-            messages: history.clone(),
-            temperature: 0.7,
+       let request = ChatRequest {
+             messages: history.clone(),
+             temperature: 0.9,
+             top_p: 0.95,
+             top_k: 40,
+            repeat_penalty: 1.1,
             max_tokens: 512,
         };
+
+        // println!("\n--- DEBUG HISTORY ---");
+        // for message in &history {
+        //     println!("{}: {}", message.role, message.content);
+        //     }
+        //     println!("---------------------\n");
 
         let response = client
             .post(format!("{SERVER_URL}/v1/chat/completions"))
             .json(&request)
             .send()
             .await?;
+
+        
 
         if !response.status().is_success() {
             eprintln!("Server returned: {}", response.status());

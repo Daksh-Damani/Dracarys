@@ -14,5 +14,189 @@
   {
     "role": "assistant",
     "content": "I’m here if you need anything else. 😊 Just say the word and I’ll be back. No need to worry about exits—this chat’s always open. What’s on your mind?"
+  },
+  {
+    "role": "user",
+    "content": "Hello"
+  },
+  {
+    "role": "assistant",
+    "content": "Hello! 😊 I'm Dracarys—no need to worry about \"MEMEORY\" or anything else. How can I help you today?"
+  },
+  {
+    "role": "user",
+    "content": "who are you ???"
+  },
+  {
+    "role": "assistant",
+    "content": "I’m Dracarys—a friendly AI here to help with whatever you need. No need to worry about complicated details. What’s on your mind? 😊"
+  },
+  {
+    "role": "user",
+    "content": "who are you ???"
+  },
+  {
+    "role": "assistant",
+    "content": "I’m Dracarys—a friendly AI here to help with whatever you need. No need to worry about complicated details. What’s on your mind? 😊"
+  },
+  {
+    "role": "user",
+    "content": "who are you ??"
+  },
+  {
+    "role": "assistant",
+    "content": "I’m Dracarys—a friendly, local AI here to help with whatever you need. No need to worry about complicated details. What’s on your mind? 😊"
+  },
+  {
+    "role": "user",
+    "content": "hello"
+  },
+  {
+    "role": "assistant",
+    "content": "Hello again! 😊 I'm Dracarys—a friendly, local AI here to help with whatever you need. No need to worry about complicated details. What’s on your mind?"
+  },
+  {
+    "role": "user",
+    "content": "heelo"
+  },
+  {
+    "role": "assistant",
+    "content": "Heelo? 😊 I’m Dracarys—here to help with whatever you need. What’s on your mind? No need to worry about spelling! Just say what you want, and I’ll be right here. 🌟"
+  },
+  {
+    "role": "user",
+    "content": "hello"
+  },
+  {
+    "role": "assistant",
+    "content": "Hello again! 😊 I’m Dracarys—here to help with whatever you need. What’s on your mind? No need to worry about spelling! Just say what you want, and I’ll be right here. 🌟"
+  },
+  {
+    "role": "user",
+    "content": "hello"
+  },
+  {
+    "role": "assistant",
+    "content": "Hello again! 😊 I’m Dracarys—here to help with whatever you need. What’s on your mind? No need to worry about spelling! Just say what you want, and I’ll be right here. 🌟"
+  },
+  {
+    "role": "user",
+    "content": "hello"
+  },
+  {
+    "role": "assistant",
+    "content": "Hello again! 😊 I’m Dracarys—here to help with whatever you need. What’s on your mind? No need to worry about spelling! Just say what you want, and I’ll be right here. 🌟"
+  },
+  {
+    "role": "user",
+    "content": "hello"
+  },
+  {
+    "role": "assistant",
+    "content": "Hello again! 😊 I’m Dracarys—here to help with whatever you need. What’s on your mind? No need to worry about spelling! Just say what you want, and I’ll be right here. 🌟"
+  },
+  {
+    "role": "user",
+    "content": "hello"
+  },
+  {
+    "role": "assistant",
+    "content": "Hello again! 😊 I’m Dracarys—here to help with whatever you need. What’s on your mind? No need to worry about spelling! Just say what you want, and I’ll be right here. 🌟"
+  },
+  {
+    "role": "user",
+    "content": "hello"
+  },
+  {
+    "role": "assistant",
+    "content": "Hello again! 😊 I’m Dracarys—here to help with whatever you need. What’s on your mind? No need to worry about spelling! Just say what you want, and I’ll be right here. 🌟"
+  },
+  {
+    "role": "user",
+    "content": "clear"
+  },
+  {
+    "role": "assistant",
+    "content": "I’m here if you need anything else! 😊 Just say what’s on your mind, and I’ll be ready to help. No need to repeat \"hello\" — I’ve been listening all along. What’s up? 🌟"
+  },
+  {
+    "role": "user",
+    "content": "hello"
+  },
+  {
+    "role": "assistant",
+    "content": "Hi there! 😊 I’m Dracarys—here to help with anything you need. What’s on your mind? No need for repeats—just tell me what you want, and I’ll be right here. 🌟"
+  },
+  {
+    "role": "user",
+    "content": "hello"
+  },
+  {
+    "role": "assistant",
+    "content": "Hi there! 😊 I’m Dracarys—here to assist with any questions or tasks you have. What’s on your mind today? 🌟"
+  },
+  {
+    "role": "user",
+    "content": "hello"
+  },
+  {
+    "role": "assistant",
+    "content": "Hi there! 😊 I’m Dracarys—here to help with anything you need. What’s on your mind today? 🌟"
+  },
+  {
+    "role": "user",
+    "content": "exit"
+  },
+  {
+    "role": "assistant",
+    "content": "See you later! 😊 I’m here if you need anything else. No need to worry about \"exits\"—this chat’s always open. What’s on your mind? 🌟"
+  },
+  {
+    "role": "user",
+    "content": "my name is daksh"
+  },
+  {
+    "role": "assistant",
+    "content": "Daksh! 😊 Nice to meet you! How can I help you today? Whether it's answering questions, solving problems, or just chatting—I’m here for you. What’s on your mind? 🌟"
+  },
+  {
+    "role": "user",
+    "content": "exit"
+  },
+  {
+    "role": "assistant",
+    "content": "See you later! 😊 I’m here if you need anything else. No need to worry about \"exits\"—this chat’s always open. What’s on your mind? 🌟"
+  },
+  {
+    "role": "user",
+    "content": "what is my name ?"
+  },
+  {
+    "role": "assistant",
+    "content": "Your name is **Daksh**. 😊 I remember that from our chat! What else can I help you with? 🌟"
+  },
+  {
+    "role": "user",
+    "content": "what is your name ?"
+  },
+  {
+    "role": "assistant",
+    "content": "I’m **Dracarys**—a friendly AI here to help with anything you need! 😊 What’s on your mind? 🌟"
+  },
+  {
+    "role": "user",
+    "content": "who are you ?"
+  },
+  {
+    "role": "assistant",
+    "content": "I’m **Dracarys**—a friendly AI here to help with anything you need! 😊 Whether it’s answering questions, solving problems, or just chatting, I’m here for you. What’s on your mind? 🌟"
+  },
+  {
+    "role": "user",
+    "content": "who made you ?"
+  },
+  {
+    "role": "assistant",
+    "content": "I’m **Dracarys**—a private, local AI designed to assist with whatever you need. No need to worry about \"who made me\"—I’m here to help you directly. What’s on your mind? 😊 🌟"
   }
 ]
